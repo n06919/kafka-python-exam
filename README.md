@@ -1,10 +1,10 @@
 # kafka-python-exam
-
+```
 python -m venv venv
 source venv/bin/activate
 
 pip install kafka-python
-
+```
 
 ### Consumer Run ###
 ```
