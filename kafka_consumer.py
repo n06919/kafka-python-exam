@@ -2,7 +2,7 @@ from kafka import KafkaConsumer
 import json
 
 class KafkaConsumerClient:
-    def __init__(self, server='localhost:9092'):
+    def __init__(self, server='localhost:29092'):
         self.consumer = KafkaConsumer(
             'test_topic',
             bootstrap_servers=[server],

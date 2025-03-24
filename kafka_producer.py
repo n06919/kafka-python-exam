@@ -2,7 +2,7 @@ from kafka import KafkaProducer
 import json
 
 class KafkaProducerClient:
-    def __init__(self, server='localhost:9092'):
+    def __init__(self, server='localhost:29092'):
         self.producer = KafkaProducer(
             bootstrap_servers=[server],
             value_serializer=lambda v: json.dumps(v).encode('utf-8')  # JSON 직렬화
