@@ -13,7 +13,7 @@ producer = KafkaProducer(
     acks=-1
 )
 
-topicName = 'skcc-college'
+topicName = 'skax-college'
 
 for _ in range(1):
     with open("./u.data", "rb") as file:
